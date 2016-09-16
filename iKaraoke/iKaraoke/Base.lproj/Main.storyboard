@@ -40,7 +40,11 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cl5-1T-pRh"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8Xp-S3-Pz8"/>
+                            <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8Xp-S3-Pz8">
+                                <constraints>
+                                    <constraint firstAttribute="height" id="qmW-dY-fIM"/>
+                                </constraints>
+                            </slider>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xr-lf-YJ9">
                                 <state key="normal" title="RECORD"/>
                                 <connections>
@@ -89,7 +93,7 @@
                             <constraint firstItem="1m7-v2-yfJ" firstAttribute="width" secondItem="3Xr-lf-YJ9" secondAttribute="width" id="hZJ-uA-75e"/>
                             <constraint firstItem="Swf-yq-sHO" firstAttribute="top" secondItem="ZcT-yA-jYF" secondAttribute="bottom" constant="20" id="k11-WW-2xa"/>
                             <constraint firstAttribute="trailing" secondItem="8Xp-S3-Pz8" secondAttribute="trailing" constant="20" id="lGj-tk-dQN"/>
-                            <constraint firstItem="8Xp-S3-Pz8" firstAttribute="top" secondItem="s3x-aJ-FyL" secondAttribute="bottom" constant="60" id="lrQ-6a-4kE"/>
+                            <constraint firstItem="8Xp-S3-Pz8" firstAttribute="top" secondItem="s3x-aJ-FyL" secondAttribute="bottom" constant="70" id="lrQ-6a-4kE"/>
                             <constraint firstItem="ZcT-yA-jYF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ohZ-ob-3VE"/>
                             <constraint firstItem="3Xr-lf-YJ9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="q3m-7V-a6D"/>
                             <constraint firstItem="hX6-1f-iaB" firstAttribute="top" secondItem="3Xr-lf-YJ9" secondAttribute="top" id="rqz-Fp-7eJ"/>
